@@ -1,0 +1,249 @@
+body{
+  scroll-behavior: smooth;
+
+}
+
+
+
+#logo{
+height: 6rem;
+width: 6rem;
+position: absolute;
+top:-10px;
+left:1rem;
+
+}
+#BgImgs{
+  position: absolute;
+  top:0rem;
+left: 0rem;
+ 
+  height:90rem;
+
+  width:118.96rem;
+ 
+
+
+}
+
+
+
+
+.navbar{
+position: absolute;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+ height: 5rem;
+ left: 0rem;
+ top:0rem;
+ font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+ transition: border 2s ease;
+
+}
+
+
+
+a:link,a:visited{
+text-decoration: none;
+color: black;
+
+
+}
+.navbar #tdL:hover{
+border-style: none none solid none;
+
+
+
+}
+
+
+
+.navbar #td1{
+  width: 57rem;
+}
+.navbar #td5{
+  width: 60rem;
+}
+.navbar #tdspace{
+  width:3rem;
+}
+
+.BottomCont{
+position: absolute;
+top:90rem;
+width: 118.95rem;
+height:5rem;
+background-color: #141414;
+left: 0rem;
+
+}
+
+
+#Header1{
+position: absolute;
+top:8rem;
+left: 10rem;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 2.5rem;
+
+
+}
+
+#Line1{
+position: absolute;
+width: 100rem;
+top:13.5rem;
+left:10rem;
+background-color: black;
+height: 5px;
+
+
+
+}
+
+
+.TableSq1{
+  position: absolute;
+  top:22rem;
+  left:17rem;
+  width: 16.875rem;
+  height: 20rem;
+  background-color: white;
+  border-radius: 20px;
+  transition: top 1s;
+  box-shadow: black 2px 3px 7px;
+}
+.TableSq1 #Surfactants{
+  position: absolute;
+  left:40px;
+  top:40px;
+  border-radius: 10px;
+    max-height:50%;
+     width: 70%;
+}
+.TableSq1 #T1{
+  position: absolute;
+  left:1.3rem;
+  top:170px;
+  font-family: "Inria Sans", Helvetica, sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+.TableSq1:hover{
+top:19rem;
+
+}
+#P_Desc1{
+  font-family: "Inria Sans", Helvetica, sans-serif;
+  position: absolute;
+top:13.063rem;
+left:.5rem;
+font-size: 1.2rem;
+
+text-align: center;
+
+
+
+}
+.TableSq2{
+  position: absolute;
+  top:22rem;
+  left:49rem;
+  width: 16.875rem;
+  height: 20rem;
+  background-color: white;
+  border-radius: 20px;
+  transition: top 1s;
+  box-shadow: black 2px 3px 7px;
+}
+.TableSq2 #Surfactants{
+  position: absolute;
+  left:40px;
+  top:40px;
+  border-radius: 10px;
+    max-height:50%;
+     width: 70%;
+}
+.TableSq2 #T2{
+  position: absolute;
+  left:2.2rem;
+  top:170px;
+  font-family: "Inria Sans", Helvetica, sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+.TableSq2:hover{
+top:19rem;
+
+}
+#P_Desc2{
+  font-family: "Inria Sans", Helvetica, sans-serif;
+  position: absolute;
+top:13.063rem;
+left:.6rem;
+font-size: 1.2rem;
+
+text-align: center;
+
+
+
+}
+.TableSq3{
+  position: absolute;
+  top:22rem;
+  left:80rem;
+  width: 16.875rem;
+  height: 20rem;
+  background-color: white;
+  border-radius: 20px;
+  transition: top 1s;
+  box-shadow: black 2px 3px 7px;
+}
+.TableSq3 #Surfactants{
+  position: absolute;
+  left:40px;
+  top:40px;
+  border-radius: 10px;
+    max-height:50%;
+     width: 70%;
+}
+.TableSq3 #T3{
+  position: absolute;
+  left:3rem;
+  top:185px;
+  font-family: "Inria Sans", Helvetica, sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+.TableSq3:hover{
+top:19rem;
+
+}
+#P_Desc3{
+  font-family: "Inria Sans", Helvetica, sans-serif;
+  position: absolute;
+top:14.063rem;
+left:.6rem;
+font-size: 1.2rem;
+
+text-align: center;
+
+
+
+}
+#Line2{
+  position: absolute;
+  width: 100rem;
+  top:50.5rem;
+  left:10rem;
+  background-color: black;
+  height: 5px;
+  
+
+
+}

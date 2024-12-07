@@ -1,0 +1,71 @@
+body{
+  background-color: gray;
+
+}
+.Container {
+ position: fixed;
+ left:43%;
+ top:25%;
+ animation: T1-Bob 4s ease-in infinite both;
+ text-shadow: 3px 3px 1px white;
+ 
+
+
+
+}
+.Container .Title1{
+  font-size: 80px;
+   font-family: "Inria Sans", Helvetica, sans-serif;
+   
+   
+   
+ 
+}
+
+@keyframes T1-Bob{
+     50% {top:24%;}
+     75% {top:26%;}
+     100% {top:25%;}
+
+
+}
+.Container .Title2{
+    font-size: 40px;
+    font-family: "Inria Sans", Helvetica, sans-serif;
+    
+  
+  
+  }
+  .Container .btn{
+    
+    font-size: 30px;
+    font-family: "Inria Sans", Helvetica, sans-serif;
+    background-color: transparent;
+    border:2px solid;
+    border-radius: 10px;
+    
+  
+  
+  }
+
+
+  .Container .btn:hover{
+    background-color: gray;
+
+
+
+
+
+  }
+.IMG{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    
+    height:59.5rem;
+    width:120rem;
+   
+
+
+
+  }

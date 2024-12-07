@@ -1,0 +1,190 @@
+#logo{
+    height: 6rem;
+    width: 6rem;
+    position: absolute;
+    top:-10px;
+    left:1rem;
+    
+    }
+.navbar{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+     height: 5rem;
+     left: 0rem;
+     top:0rem;
+     font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 1.5rem;
+     transition: border 2s ease;
+    
+    }
+    
+    
+    
+    a:link,a:visited{
+    text-decoration: none;
+    color: black;
+    
+    
+    }
+    .navbar #tdL:hover{
+    border-style: none none solid none;
+    
+    
+    
+    }
+    .navbar #tdL1:hover{
+      border-style: none none solid none;
+      
+      
+      
+      }
+    
+    
+    
+    .navbar #td1{
+      width: 57rem;
+    }
+    .navbar #td5{
+      width: 60rem;
+    }
+    .navbar #tdspace{
+      width:3rem;
+    }
+
+
+.pContainer{
+    position: absolute;
+    display: flex;
+    left:20rem;
+    top:10rem;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 30rem;
+    width: 20rem;
+    border-radius: 15px;
+    
+    
+}
+button{
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+    height: 5rem;
+    width: 20rem;
+    background: none;
+    border: none;
+    border-radius: 15px;
+    
+
+}
+button:hover{
+    background-color:rgb(136, 241, 241);
+
+}
+
+
+
+.rContainer{
+    position: absolute;
+    display: flex;
+    left:42rem;
+    top:10rem;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 30rem;
+    width: 50rem;
+    border-radius: 15px;
+   
+}
+h3 {
+    
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    top:0rem;
+    
+
+
+
+}
+#other {
+    position: absolute;
+    left: 30rem;
+    top: 0rem;
+    font-size: 2rem;
+}
+.tContainer {
+    position: absolute;
+    display: flex;
+    left:42rem;
+    top:41rem;
+    flex-direction: row;
+    border: 2px solid black;
+    height: 5rem;
+    width: 50rem;
+    border-radius: 15px;
+}
+#total {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+#BgImg1{
+    position: absolute;
+    top:-30.5rem;
+  left: 0rem;
+   
+    height:90rem;
+  
+    width:119.96rem;
+   
+  
+  
+  }
+  .reset{
+    align-content: center;
+    position: absolute;
+    top:41rem;
+    left:20rem;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 5rem;
+    width: 20rem;
+    border-radius: 15px;
+  }
+  #Rbutton {
+    width:20rem;
+
+    
+
+
+
+
+  }
+  .Order{
+    align-content: center;
+    position: absolute;
+    top:41rem;
+    left:95rem;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 5rem;
+    width: 10rem;
+    border-radius: 15px;
+  }
+  #Obutton {
+    width:10rem;
+
+    
+
+
+
+
+  }

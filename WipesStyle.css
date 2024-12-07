@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding-top: 5rem;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+h1,
+h2 {
+    color: #111;
+    font-weight: 300;
+}
+
+pre {
+    line-height: 1.6;
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.navbar {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 5rem;
+    left: 0;
+    top: 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+#logo {
+    height: 4rem;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+#tdL1 {
+    border-bottom: solid 3px transparent;
+}
+
+#tdL:hover {
+    border-bottom: solid 3px #000000;
+}
+
+#td1 {
+    width: 57rem;
+}
+
+#td5 {
+    width: 60rem;
+}
+
+#tdspace {
+    width: 3rem;
+}
+
+.section-divider {
+    border: 0;
+    height: 2px;
+    background-color: black;
+    margin: 50px 0;
+}
+
+.product-view {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.image-container {
+    width: 50%;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.product-image {
+    max-width: auto;
+    height: 20rem;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+.image-container:hover .product-image {
+    transform: scale(1.1);
+    filter: blur(2px) brightness(1.2);
+}
+
+.product-details {
+
+    width: 180rem;
+}
+
+.product-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.product-info {
+    margin-bottom: 50px;
+}
+
+.product-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.product-info p {
+    font-size: 1.2rem;
+}
+
+.product-info ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.product-info ul li {
+    font-size: 1.2rem;
+}
+
+.product-info ul li a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.product-info ul li a:hover {
+    color: #f0a500;
+    text-shadow: 0 0 5px #f0a500;
+}
+
+.footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
+
+.product-details:hover h1 {
+    color: #f0a500;
+    transition: color 0.3s ease;
+}
+
+.product-info:hover h2 {
+    text-decoration: underline;
+    transition: text-decoration 0.3s ease;
+}
